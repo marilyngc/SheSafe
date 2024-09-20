@@ -1,0 +1,17 @@
+
+
+import './App.css'
+import './index.css';
+import { Home } from './components/page/Home'
+
+function App() {
+  
+
+  return (
+    <>
+      <Home/>
+    </>
+  )
+}
+
+export default App
