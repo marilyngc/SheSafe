@@ -13,7 +13,7 @@ export const Login = () => {
 	<div class="form-container sign-in-container">
 		<form action="#">
 			<img src={logo} alt="" />
-			{/* <h1>Sign in</h1> */}
+		
 			<div class="social-container">
 				
 				<a href="#" class="social"><i class="fab fa-google-plus-g"><IoLogoGoogleplus /></i></a>
