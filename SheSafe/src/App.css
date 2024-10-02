@@ -182,8 +182,8 @@ input {
 
 
 /* ***************************************** */
-
-
+/* 
+NABVAR */
 
 
 .navbar {
@@ -191,7 +191,7 @@ input {
     justify-content: space-between; /* Separa los divs en extremos */
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #694485;
     color: white;
     width: 100%; /* Ocupar todo el ancho de la pantalla */
     position: fixed; /* Fijar el navbar en la parte superior */
@@ -218,7 +218,8 @@ input {
 }
 
 .navbar a {
-    color: white;
+  font-size: 25px;
+  color: #f15b9d;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -232,19 +233,15 @@ input {
 
 
 /* ************************************* */
-
-/* Estilos generales */
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
+/* 
+botones del menu */
 
 .bottom-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #694485;
     color: white;
     width: 100%; /* Ocupar todo el ancho de la pantalla */
     position: fixed; /* Fijar la sección en la parte inferior */
@@ -265,7 +262,8 @@ body {
 }
 
 .bottom-section a {
-    color: white;
+  font-size: 25px;
+    color: #f15b9d;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -277,3 +275,10 @@ body {
     border-radius: 5px;
 }
 
+/* 
+*********************** */
+/* mapa */
+.leaflet-container{
+  width: 100vw;
+  height: 100vh;
+}
